@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.menu p{
+    font-size: 0.6em;
+}
+
+.side2{
+    margin-right: 10px;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.wrapper{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    align-items: center;
+}
+
+.content1, #lg{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.product-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-gallery img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.img_bottom:focus{
+    border: 3px solid rgb(255, 106, 0);
+    opacity: 0.5;
+}
+.content1,  .content2{
+    width: 300px;
+}
+
+.content1{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.react{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+}
+
+.add{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.cart{
+    display: flex;
+    background-color: chocolate;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cartreact{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+.fas{
+    color: #FFF;
+}
+#amount{
+    font-size: 0.8em;
+     margin-top: 15px;
+}
